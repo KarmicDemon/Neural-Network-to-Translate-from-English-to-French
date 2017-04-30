@@ -40,7 +40,6 @@ def preprocess(source_text, target_text):
         (source_vocab_to_int, target_vocab_to_int), \
         (source_int_to_vocab, target_int_to_vocab)
 
-
 def create_lookup_tables(text):
     ### Create lookup tables for vocabulary
     vocab = set(text.split())
